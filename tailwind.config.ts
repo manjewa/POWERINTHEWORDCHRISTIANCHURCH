@@ -18,6 +18,23 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Playfair Display', 'serif'],
+				'sans': ['Inter', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-spiritual': 'var(--gradient-spiritual)',
+				'gradient-divine': 'var(--gradient-divine)',
+				'gradient-heavenly': 'var(--gradient-heavenly)',
+			},
+			boxShadow: {
+				'divine': 'var(--shadow-divine)',
+				'spiritual': 'var(--shadow-spiritual)',
+				'gentle': 'var(--shadow-gentle)',
+			},
+			transitionProperty: {
+				'divine': 'var(--transition-divine)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +69,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'spiritual-blue': 'hsl(var(--spiritual-blue))',
+				'divine-gold': 'hsl(var(--divine-gold))',
+				'heavenly-light': 'hsl(var(--heavenly-light))',
+				'sanctuary-white': 'hsl(var(--sanctuary-white))',
+				'prayer-gray': 'hsl(var(--prayer-gray))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
