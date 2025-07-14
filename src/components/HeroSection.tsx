@@ -1,23 +1,17 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/church-hero.jpg";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img 
-          src={heroImage} 
-          alt="Divine light breaking through clouds" 
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Divine light breaking through clouds" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-spiritual-blue/70 via-spiritual-blue/50 to-spiritual-blue/80"></div>
       </div>
       
       {/* Hero Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-6">
-          <div className="text-6xl mb-4">🕊️</div>
+          
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-heavenly-light mb-6 leading-tight">
             Power in the Word
             <span className="block text-divine-gold font-serif text-3xl md:text-4xl font-normal mt-2">
@@ -37,17 +31,10 @@ const HeroSection = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button 
-            size="lg" 
-            className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 py-6 text-lg shadow-divine transition-divine"
-          >
+          <Button size="lg" className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 py-6 text-lg shadow-divine transition-divine">
             Join Our Services
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 py-6 text-lg transition-divine"
-          >
+          <Button variant="outline" size="lg" className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 py-6 text-lg transition-divine">
             Learn More
           </Button>
         </div>
@@ -59,8 +46,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-divine-gold rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
