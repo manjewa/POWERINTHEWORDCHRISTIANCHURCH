@@ -47,7 +47,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-8">
             <h3 className="font-serif text-2xl font-bold text-heavenly-light mb-8">
@@ -94,8 +94,40 @@ const ContactSection = () => {
             </div>
           </div>
 
+          {/* Google Maps Location */}
+          <div className="lg:col-span-1">
+            <h3 className="font-serif text-2xl font-bold text-heavenly-light mb-8">
+              Find Us
+            </h3>
+            <Card className="bg-card/10 backdrop-blur-sm border-divine-gold/30 overflow-hidden">
+              <CardContent className="p-0">
+                <div className="aspect-square">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8087849665355!2d39.661369!3d-4.055556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012d4f3e6e6e7%3A0x1234567890123456!2sPower%20In%20The%20Word%20Christian%20Church!5e0!3m2!1sen!2ske!4v1639123456789!5m2!1sen!2ske"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Power In The Word Christian Church Location"
+                  ></iframe>
+                </div>
+              </CardContent>
+            </Card>
+            <div className="mt-4 text-center">
+              <Button 
+                size="sm"
+                className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold transition-divine"
+                onClick={() => window.open('https://maps.app.goo.gl/q3sChJEuTccn2s8q7', '_blank')}
+              >
+                Open in Google Maps
+              </Button>
+            </div>
+          </div>
+
           {/* Welcome Message */}
-          <div className="lg:pl-8">
+          <div className="lg:col-span-1">
             <Card className="bg-divine-gold/10 backdrop-blur-sm border-divine-gold/30 h-full">
               <CardContent className="p-8 h-full flex flex-col justify-center">
                 <div className="text-center">
