@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/church-hero.jpg";
 const HeroSection = () => {
-  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img src={heroImage} alt="Divine light breaking through clouds" className="w-full h-full object-cover" />
@@ -13,9 +13,9 @@ const HeroSection = () => {
         <div className="mb-6">
           
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-heavenly-light mb-6 leading-tight">
-            Power in the Word
+            POWER IN THE WORD
             <span className="block text-divine-gold font-serif text-3xl md:text-4xl font-normal mt-2">
-              Christian Church
+              CHRISTIAN CHURCH
             </span>
           </h1>
         </div>

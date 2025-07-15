@@ -7,7 +7,7 @@ const ContactSection = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Visit Us",
-      details: ["Power in the Word Christian Church", "Frere Town, Mombasa – Kenya"]
+      details: ["POWER IN THE WORD CHRISTIAN CHURCH", "Frere Town, Mombasa – Kenya"]
     },
     {
       icon: <Mail className="w-6 h-6" />,
@@ -25,12 +25,12 @@ const ContactSection = () => {
     {
       icon: <Facebook className="w-6 h-6" />,
       name: "Facebook",
-      handle: "@power in the word christian church"
+      handle: "@POWER IN THE WORD CHRISTIAN CHURCH"
     },
     {
       icon: <Youtube className="w-6 h-6" />,
       name: "YouTube", 
-      handle: "@power in the word christian church"
+      handle: "@POWER IN THE WORD CHRISTIAN CHURCH"
     }
   ];
 
