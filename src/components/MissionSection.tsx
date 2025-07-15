@@ -30,19 +30,30 @@ const MissionSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-spiritual-blue mb-6">
-            Our Mission
+            Our Mission & Vision
           </h2>
           <div className="w-24 h-1 bg-divine-gold mx-auto mb-8"></div>
+        </div>
+
+        {/* Vision Statement */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <Card className="bg-divine-gold/10 border-divine-gold/30 shadow-spiritual">
+            <CardContent className="p-8 text-center">
+              <h3 className="font-serif text-2xl font-bold text-spiritual-blue mb-4">OUR VISION</h3>
+              <p className="font-serif text-xl md:text-2xl text-spiritual-blue font-semibold">
+                TO REACH THE REACHED AND UNREACHED
+              </p>
+            </CardContent>
+          </Card>
         </div>
 
         {/* Mission Statement */}
         <div className="max-w-4xl mx-auto mb-16">
           <Card className="bg-spiritual-blue border-divine-gold/30 shadow-spiritual">
             <CardContent className="p-12 text-center">
-              <div className="text-5xl mb-6">📖</div>
-              <blockquote className="font-serif text-2xl md:text-3xl text-heavenly-light leading-relaxed mb-6">
-                "To empower lives through the living Word of God, raise Spirit-filled believers, 
-                and transform communities for Christ."
+              <h3 className="font-serif text-2xl font-bold text-heavenly-light mb-6">OUR MISSION</h3>
+              <blockquote className="font-serif text-xl md:text-2xl text-heavenly-light leading-relaxed mb-6 font-semibold">
+                TO TEACH THE WORD AND MAKE DISCIPLES AROUND THE GLOBE
               </blockquote>
               <div className="w-20 h-1 bg-divine-gold mx-auto"></div>
             </CardContent>

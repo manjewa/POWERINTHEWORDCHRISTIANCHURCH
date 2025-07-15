@@ -26,9 +26,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo and Site Name */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-divine-gold rounded-full flex items-center justify-center">
-              {/* Placeholder for logo - will be replaced with actual logo */}
-              <span className="text-spiritual-blue font-bold text-lg">P</span>
+            <div className="w-12 h-12 rounded-full overflow-hidden bg-white p-1">
+              <img 
+                src="/lovable-uploads/76c7d4cf-4cb5-45ce-93b9-95a4757ad6e9.png" 
+                alt="Power in the Word Christian Church Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="text-heavenly-light">
               <h1 className="font-serif text-lg font-bold leading-tight">
