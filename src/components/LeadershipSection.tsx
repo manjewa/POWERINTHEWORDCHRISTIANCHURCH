@@ -37,7 +37,13 @@ const LeadershipSection = () => {
             <Card key={index} className="bg-card/95 backdrop-blur-sm border-divine-gold/30 hover:shadow-divine transition-divine group">
               <CardContent className="p-8 text-center">
                 <div className="mb-6">
-                  <div className="text-6xl mb-4">{leader.icon}</div>
+                  <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-divine-gold shadow-lg">
+                    <img 
+                      src={index === 0 ? "/lovable-uploads/f660baa5-3e2c-49f4-b38f-23682d4cfe62.png" : "/lovable-uploads/85f2e44e-80b3-4805-8c97-7ad1b2963ada.png"}
+                      alt={`${leader.name} - ${leader.title}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                   <div className="space-y-2">
                     <h3 className="font-serif text-2xl font-bold text-spiritual-blue group-hover:text-divine-gold transition-divine">
                       {leader.name}
