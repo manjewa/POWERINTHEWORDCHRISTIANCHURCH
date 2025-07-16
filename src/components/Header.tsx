@@ -7,10 +7,10 @@ const Header = () => {
 
   const navigationItems = [
     { name: "Home", href: "#hero" },
-    { name: "About Us", href: "#mission" },
-    { name: "Order of Service", href: "#services" },
+    { name: "About Us", href: "#about" },
+    { name: "Services", href: "#services" },
     { name: "Photo Album", href: "#gallery" },
-    { name: "Contacts", href: "#contact" },
+    { name: "Contact", href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {

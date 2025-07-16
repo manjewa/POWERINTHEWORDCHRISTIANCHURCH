@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/church-building.png";
+const heroImage = "/lovable-uploads/bd6d4363-41db-4532-b196-0ce9bfb48c8c.png";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img src={heroImage} alt="Power In The Word Christian Church Building" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-spiritual-blue/70 via-spiritual-blue/50 to-spiritual-blue/80"></div>
+        <img src={heroImage} alt="Power In The Word Christian Church Building" className="w-full h-full object-cover filter blur-sm" />
+        <div className="absolute inset-0 bg-gradient-to-b from-spiritual-blue/80 via-spiritual-blue/60 to-spiritual-blue/90"></div>
       </div>
       
       {/* Hero Content */}
@@ -34,7 +34,8 @@ const HeroSection = () => {
           <Button size="lg" className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 py-6 text-lg shadow-divine transition-divine">
             Join Our Services
           </Button>
-          <Button variant="outline" size="lg" className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 py-6 text-lg transition-divine">
+          <Button variant="outline" size="lg" className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 py-6 text-lg transition-divine"
+            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
             Learn More
           </Button>
         </div>
