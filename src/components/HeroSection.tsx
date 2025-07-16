@@ -25,8 +25,8 @@ const HeroSection = () => {
             Frere Town, Mombasa – Kenya
           </p>
           <blockquote className="font-serif text-xl md:text-2xl text-divine-gold italic leading-relaxed">
-            "Where we preach the truth for if you know the truth, 
-            the truth will set you free indeed"
+            "Where we preach the truth...for if you know the truth, 
+            the truth shall set you free and free indeed" - John 8:32
           </blockquote>
         </div>
         

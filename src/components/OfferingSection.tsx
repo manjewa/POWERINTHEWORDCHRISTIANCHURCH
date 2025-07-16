@@ -28,19 +28,6 @@ const OfferingSection = () => {
                   className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                 />
               </div>
-              <div className="space-y-3 text-center">
-                <div className="bg-spiritual-blue/5 p-4 rounded-lg">
-                  <p className="text-lg font-semibold text-spiritual-blue">Paybill Number</p>
-                  <p className="text-2xl font-bold text-divine-gold">247247</p>
-                </div>
-                <div className="bg-spiritual-blue/5 p-4 rounded-lg">
-                  <p className="text-lg font-semibold text-spiritual-blue">Account Number</p>
-                  <p className="text-2xl font-bold text-divine-gold">499053</p>
-                </div>
-                <p className="text-sm text-spiritual-blue/70 mt-4">
-                  Power in the Word Christian Church
-                </p>
-              </div>
             </CardContent>
           </Card>
 
@@ -58,27 +45,16 @@ const OfferingSection = () => {
                   className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                 />
               </div>
-              <div className="space-y-3 text-center">
-                <div className="bg-spiritual-blue/5 p-4 rounded-lg">
-                  <p className="text-lg font-semibold text-spiritual-blue">Paybill Number</p>
-                  <p className="text-2xl font-bold text-divine-gold">247247</p>
-                </div>
-                <div className="bg-spiritual-blue/5 p-4 rounded-lg">
-                  <p className="text-lg font-semibold text-spiritual-blue">Account Number</p>
-                  <p className="text-2xl font-bold text-divine-gold">202337</p>
-                </div>
-                <p className="text-sm text-spiritual-blue/70 mt-4">
-                  Samuel Ingoi Omungala
-                </p>
-              </div>
             </CardContent>
           </Card>
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-lg text-spiritual-blue/80 max-w-2xl mx-auto">
-            Your faithful giving helps us spread the Gospel, support our community, and expand God's kingdom. Thank you for your generous heart and obedience to God's calling.
-          </p>
+          <div className="bg-card/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-2xl mx-auto">
+            <blockquote className="font-serif text-xl md:text-2xl text-divine-gold italic leading-relaxed">
+              "For nothing will be impossible with God" - Luke 1:37
+            </blockquote>
+          </div>
         </div>
       </div>
     </section>
