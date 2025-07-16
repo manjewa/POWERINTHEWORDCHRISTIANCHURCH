@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/church-hero.jpg";
+import heroImage from "@/assets/church-building.png";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img src={heroImage} alt="Divine light breaking through clouds" className="w-full h-full object-cover" />
+        <img src={heroImage} alt="Power In The Word Christian Church Building" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-spiritual-blue/70 via-spiritual-blue/50 to-spiritual-blue/80"></div>
       </div>
       

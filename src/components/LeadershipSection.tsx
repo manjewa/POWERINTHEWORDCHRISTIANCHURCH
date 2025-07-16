@@ -71,8 +71,40 @@ const LeadershipSection = () => {
           ))}
         </div>
 
-        {/* Leadership Values */}
-        <div className="mt-16">
+        {/* Mission & Vision Section */}
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <h3 className="font-serif text-3xl md:text-4xl font-bold text-heavenly-light mb-6">
+              Our Mission & Vision
+            </h3>
+            <div className="w-24 h-1 bg-divine-gold mx-auto mb-8"></div>
+          </div>
+
+          {/* Vision Statement */}
+          <div className="max-w-4xl mx-auto mb-8">
+            <Card className="bg-divine-gold/20 border-divine-gold/50 shadow-divine">
+              <CardContent className="p-8 text-center">
+                <h4 className="font-serif text-xl font-bold text-heavenly-light mb-4">OUR VISION</h4>
+                <p className="font-serif text-lg md:text-xl text-heavenly-light font-semibold">
+                  TO REACH THE REACHED AND UNREACHED
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Mission Statement */}
+          <div className="max-w-4xl mx-auto mb-12">
+            <Card className="bg-heavenly-light/10 border-divine-gold/30 shadow-divine">
+              <CardContent className="p-8 text-center">
+                <h4 className="font-serif text-xl font-bold text-heavenly-light mb-4">OUR MISSION</h4>
+                <blockquote className="font-serif text-lg md:text-xl text-heavenly-light leading-relaxed font-semibold">
+                  TO TEACH THE WORD AND MAKE DISCIPLES AROUND THE GLOBE
+                </blockquote>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Leadership Values */}
           <div className="bg-divine-gold/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-4xl mx-auto">
             <h4 className="font-serif text-2xl font-bold text-heavenly-light text-center mb-6">
               Founded in Faith, Led by the Spirit
