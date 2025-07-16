@@ -13,14 +13,18 @@ const Index = () => {
       <div id="hero">
         <HeroSection />
       </div>
-      <div id="services">
-        <ServicesSection />
-      </div>
       <div id="about">
         <LeadershipSection />
       </div>
-      <OfferingSection />
-      <PhotoAlbum />
+      <div id="services">
+        <ServicesSection />
+      </div>
+      <div id="gallery">
+        <PhotoAlbum />
+      </div>
+      <div id="offering">
+        <OfferingSection />
+      </div>
       <div id="contact">
         <ContactSection />
       </div>
