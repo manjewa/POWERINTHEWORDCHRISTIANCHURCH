@@ -174,6 +174,10 @@ const ContactSection = () => {
               <Button 
                 size="lg"
                 className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 shadow-divine transition-divine"
+                onClick={() => {
+                  const phoneSection = document.querySelector('[title="Call Us"]')?.closest('.space-y-8');
+                  phoneSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 Contact Us Today
               </Button>
@@ -181,6 +185,10 @@ const ContactSection = () => {
                 variant="outline"
                 size="lg" 
                 className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 transition-divine"
+                onClick={() => {
+                  const phoneSection = document.querySelector('[title="Call Us"]')?.closest('.space-y-8');
+                  phoneSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 Prayer Request
               </Button>

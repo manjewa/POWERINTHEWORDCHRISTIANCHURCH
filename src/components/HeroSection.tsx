@@ -31,7 +31,8 @@ const HeroSection = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 py-6 text-lg shadow-divine transition-divine">
+          <Button size="lg" className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 py-6 text-lg shadow-divine transition-divine"
+            onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}>
             Join Our Services
           </Button>
           <Button variant="outline" size="lg" className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 py-6 text-lg transition-divine"

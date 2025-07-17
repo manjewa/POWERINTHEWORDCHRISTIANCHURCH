@@ -105,7 +105,7 @@ const LeadershipSection = () => {
           </div>
 
           {/* Leadership Values */}
-          <div className="bg-divine-gold/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-4xl mx-auto">
+          <div className="bg-divine-gold/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-4xl mx-auto mb-12">
             <h4 className="font-serif text-2xl font-bold text-heavenly-light text-center mb-6">
               Our Foundation
             </h4>
@@ -117,6 +117,22 @@ const LeadershipSection = () => {
             </p>
             <p className="text-heavenly-light/90 text-center leading-relaxed text-lg italic">
               Founded in faith, led by spirit.
+            </p>
+          </div>
+
+          {/* Community Service */}
+          <div className="bg-heavenly-light/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-4xl mx-auto">
+            <h4 className="font-serif text-2xl font-bold text-heavenly-light text-center mb-6">
+              Community Service & Outreach
+            </h4>
+            <p className="text-heavenly-light/90 text-center leading-relaxed text-lg mb-4">
+              At Power in the Word Christian Church, we are deeply committed to not only preaching the Gospel and nurturing spiritual growth, but also to serving the practical needs of our community.
+            </p>
+            <p className="text-heavenly-light/90 text-center leading-relaxed text-lg mb-4">
+              We extend support to the needy, including single mothers, orphans, and those who are less fortunate. Through various outreach programs, we aim to provide food, clothing, school supplies, emotional support, and where possible, financial assistance to help uplift lives.
+            </p>
+            <p className="text-heavenly-light/90 text-center leading-relaxed text-lg">
+              In addition, we actively engage with the society and the local community around us. We believe in building strong, compassionate relationships to identify areas where help is most needed and respond with love and generosity. Whether it's through community clean-ups, youth mentorship, or family support initiatives, our goal is to be a source of hope and light—meeting both spiritual and physical needs in Christ's name.
             </p>
           </div>
         </div>
