@@ -80,16 +80,24 @@ const ContactSection = () => {
             <div>
               <h4 className="font-semibold text-heavenly-light mb-4">Follow Us</h4>
               <div className="space-y-3">
-                {socialLinks.map((social, index) => (
-                  <div key={index} className="flex items-center space-x-3">
-                    <div className="text-divine-gold">
-                      {social.icon}
-                    </div>
-                    <span className="text-heavenly-light/80">
-                      {social.name}: {social.handle}
-                    </span>
+                <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
+                     onClick={() => window.open('https://www.facebook.com/PowerInTheWordChristianChurch', '_blank')}>
+                  <div className="text-divine-gold">
+                    <Facebook className="w-6 h-6" />
                   </div>
-                ))}
+                  <span className="text-heavenly-light/80">
+                    Facebook: @POWER IN THE WORD CHRISTIAN CHURCH
+                  </span>
+                </div>
+                <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
+                     onClick={() => window.open('https://www.youtube.com/@powerinthewordchristianchu2171', '_blank')}>
+                  <div className="text-divine-gold">
+                    <Youtube className="w-6 h-6" />
+                  </div>
+                  <span className="text-heavenly-light/80">
+                    YouTube: @POWER IN THE WORD CHRISTIAN CHURCH
+                  </span>
+                </div>
               </div>
             </div>
           </div>
