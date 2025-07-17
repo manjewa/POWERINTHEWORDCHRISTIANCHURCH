@@ -17,7 +17,7 @@ const ContactSection = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Call Us",
-      details: ["[Contact number coming soon]"]
+      details: ["0721753637", "+254792118358", "0714904078"]
     }
   ];
 
@@ -185,6 +185,15 @@ const ContactSection = () => {
                 Prayer Request
               </Button>
             </div>
+          </div>
+        </div>
+
+        {/* Luke 1:37 Quote */}
+        <div className="text-center mt-16">
+          <div className="bg-card/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-2xl mx-auto">
+            <blockquote className="font-serif text-xl md:text-2xl text-divine-gold italic leading-relaxed">
+              "For nothing will be impossible with God" - Luke 1:37
+            </blockquote>
           </div>
         </div>
       </div>
