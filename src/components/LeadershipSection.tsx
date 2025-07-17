@@ -110,8 +110,8 @@ const LeadershipSection = () => {
               Our Foundation
             </h4>
             <p className="text-heavenly-light/90 text-center leading-relaxed text-lg mb-4">
-              Founded by Bishop Samuel Ingói and Senior Pastor Everlyne Ingói, we are a vibrant 
-              Pentecostal ministry committed to preaching the uncompromised Word of God, empowering 
+              We are a pentecostal/evangelical ministry. At Power in the Word Christian Church, 
+              founded by Bishop Samuel Ingói and Senior Pastor Everlyne Ingói, we are committed to preaching the uncompromised Word of God, empowering 
               believers through prayer, and nurturing a Spirit-filled community grounded in love, 
               faith, and truth.
             </p>
@@ -126,13 +126,13 @@ const LeadershipSection = () => {
               Community Service & Outreach
             </h4>
             <p className="text-heavenly-light/90 text-center leading-relaxed text-lg mb-4">
-              At Power in the Word Christian Church, we are deeply committed to not only preaching the Gospel and nurturing spiritual growth, but also to serving the practical needs of our community.
+              We are committed to preaching the Gospel, nurturing spiritual growth, and addressing the practical needs of our community.
             </p>
             <p className="text-heavenly-light/90 text-center leading-relaxed text-lg mb-4">
-              We extend support to the needy, including single mothers, orphans, and those who are less fortunate. Through various outreach programs, we aim to provide food, clothing, school supplies, emotional support, and where possible, financial assistance to help uplift lives.
+              We support the vulnerable—including single mothers, orphans, and the less fortunate—through outreach programs that provide essentials like food, clothing, and school supplies.
             </p>
             <p className="text-heavenly-light/90 text-center leading-relaxed text-lg">
-              In addition, we actively engage with the society and the local community around us. We believe in building strong, compassionate relationships to identify areas where help is most needed and respond with love and generosity. Whether it's through community clean-ups, youth mentorship, or family support initiatives, our goal is to be a source of hope and light—meeting both spiritual and physical needs in Christ's name.
+              By working closely with the local community, we identify areas of need and offer mentorship, support, and assistance—all in the love and service of Christ.
             </p>
           </div>
         </div>
