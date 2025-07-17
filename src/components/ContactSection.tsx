@@ -192,7 +192,7 @@ const ContactSection = () => {
         <div className="text-center mt-16">
           <div className="bg-card/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-2xl mx-auto">
             <blockquote className="font-serif text-xl md:text-2xl text-divine-gold italic leading-relaxed">
-              "For nothing will be impossible with God" - Luke 1:37
+              "For with God nothing is impossible" - Luke 1:37
             </blockquote>
           </div>
         </div>

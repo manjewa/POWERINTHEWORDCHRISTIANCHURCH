@@ -98,7 +98,7 @@ const LeadershipSection = () => {
               <CardContent className="p-8 text-center">
                 <h4 className="font-serif text-xl font-bold text-heavenly-light mb-4">OUR MISSION</h4>
                 <blockquote className="font-serif text-lg md:text-xl text-heavenly-light leading-relaxed font-semibold">
-                  TO TEACH THE WORD AND MAKE DISCIPLES AROUND THE GLOBE
+                  We preach and teach, make disciples, and equip them to raise up an army of the Lord and send them to the world to do the work of the Lord.
                 </blockquote>
               </CardContent>
             </Card>
@@ -107,13 +107,16 @@ const LeadershipSection = () => {
           {/* Leadership Values */}
           <div className="bg-divine-gold/10 backdrop-blur-sm border border-divine-gold/30 rounded-2xl p-8 max-w-4xl mx-auto">
             <h4 className="font-serif text-2xl font-bold text-heavenly-light text-center mb-6">
-              Founded in Faith, Led by the Spirit
+              Our Foundation
             </h4>
-            <p className="text-heavenly-light/90 text-center leading-relaxed text-lg">
+            <p className="text-heavenly-light/90 text-center leading-relaxed text-lg mb-4">
               Founded by Bishop Samuel Ingói and Senior Pastor Everlyne Ingói, we are a vibrant 
               Pentecostal ministry committed to preaching the uncompromised Word of God, empowering 
               believers through prayer, and nurturing a Spirit-filled community grounded in love, 
               faith, and truth.
+            </p>
+            <p className="text-heavenly-light/90 text-center leading-relaxed text-lg italic">
+              Founded in faith, led by spirit.
             </p>
           </div>
         </div>
