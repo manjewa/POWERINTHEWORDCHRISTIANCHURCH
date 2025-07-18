@@ -7,7 +7,7 @@ const ContactSection = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Visit Us",
-      details: ["POWER IN THE WORD CHRISTIAN CHURCH", "Frere Town, Mombasa – Kenya"]
+      details: ["POWER IN THE WORD CHRISTIAN CHURCH", "Frere Town, Mombasa – Kenya", "P.O BOX 16547-80100 MOMBASA"]
     },
     {
       icon: <Mail className="w-6 h-6" />,
@@ -17,7 +17,7 @@ const ContactSection = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Call Us",
-      details: ["0721753637", "+254792118358", "0714904078"]
+      details: ["+254721753637", "+254792118358", "+254714904078"]
     }
   ];
 
