@@ -79,6 +79,7 @@ const ContactSection = () => {
             {/* Social Media */}
             <div>
               <h4 className="font-semibold text-heavenly-light mb-4">Follow Us</h4>
+              <p className="text-heavenly-light/60 text-sm mb-4">Click here to visit our pages</p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
                      onClick={() => window.open('https://www.facebook.com/PowerInTheWordChristianChurch', '_blank')}>
@@ -183,8 +184,9 @@ const ContactSection = () => {
                 size="lg"
                 className="bg-divine-gold hover:bg-divine-gold/90 text-spiritual-blue font-semibold px-8 shadow-divine transition-divine"
                 onClick={() => {
-                  const phoneSection = document.querySelector('[title="Call Us"]')?.closest('.space-y-8');
-                  phoneSection?.scrollIntoView({ behavior: 'smooth' });
+                  const callUsCard = document.querySelector('h4[class*="font-semibold"]:has-text("Call Us")')?.closest('div[class*="space-y-8"]') || 
+                                   document.querySelector('.space-y-8');
+                  callUsCard?.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
                 Contact Us Today
@@ -194,8 +196,9 @@ const ContactSection = () => {
                 size="lg" 
                 className="border-divine-gold text-divine-gold hover:bg-divine-gold hover:text-spiritual-blue px-8 transition-divine"
                 onClick={() => {
-                  const phoneSection = document.querySelector('[title="Call Us"]')?.closest('.space-y-8');
-                  phoneSection?.scrollIntoView({ behavior: 'smooth' });
+                  const callUsCard = document.querySelector('h4[class*="font-semibold"]:has-text("Call Us")')?.closest('div[class*="space-y-8"]') || 
+                                   document.querySelector('.space-y-8');
+                  callUsCard?.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
                 Prayer Request
