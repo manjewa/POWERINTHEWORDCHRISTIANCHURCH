@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { MapPin, Mail, Facebook, Youtube, Phone } from "lucide-react";
+import { MapPin, Mail, Facebook, Youtube, Phone, Music } from "lucide-react";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -97,6 +97,15 @@ const ContactSection = () => {
                   </div>
                   <span className="text-heavenly-light/80">
                     YouTube: @POWER IN THE WORD CHRISTIAN CHURCH
+                  </span>
+                </div>
+                <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
+                     onClick={() => window.open('https://www.tiktok.com/search?q=POWER%20MAJESHI%20TV&t=1760080380911', '_blank')}>
+                  <div className="text-divine-gold">
+                    <Music className="w-6 h-6" />
+                  </div>
+                  <span className="text-heavenly-light/80">
+                    TikTok: POWER MAJESHI TV
                   </span>
                 </div>
               </div>
