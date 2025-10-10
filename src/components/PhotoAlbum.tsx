@@ -1,5 +1,12 @@
 import { useState } from "react";
 import { X, ZoomIn } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const PhotoAlbum = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -78,36 +85,47 @@ const PhotoAlbum = () => {
           </p>
         </div>
 
-        {/* Photo Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {photos.map((photo, index) => (
-            <div
-              key={index}
-              className="group relative bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-divine transition-all duration-300 cursor-pointer"
-              onClick={() => openModal(photo.src)}
-            >
-              <div className="aspect-square overflow-hidden">
-                <img
-                  src={photo.src}
-                  alt={photo.alt}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-spiritual-blue/0 group-hover:bg-spiritual-blue/20 transition-all duration-300 flex items-center justify-center">
-                <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </div>
-              
-              {/* Category Badge */}
-              <div className="absolute top-3 left-3">
-                <span className="bg-divine-gold text-spiritual-blue px-3 py-1 rounded-full text-xs font-semibold">
-                  {photo.category}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
+        {/* Photo Carousel */}
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full max-w-7xl mx-auto"
+        >
+          <CarouselContent>
+            {photos.map((photo, index) => (
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                <div
+                  className="group relative bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-divine transition-all duration-300 cursor-pointer mx-2"
+                  onClick={() => openModal(photo.src)}
+                >
+                  <div className="aspect-square overflow-hidden">
+                    <img
+                      src={photo.src}
+                      alt={photo.alt}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-spiritual-blue/0 group-hover:bg-spiritual-blue/20 transition-all duration-300 flex items-center justify-center">
+                    <ZoomIn className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+                  
+                  {/* Category Badge */}
+                  <div className="absolute top-3 left-3">
+                    <span className="bg-divine-gold text-spiritual-blue px-3 py-1 rounded-full text-xs font-semibold">
+                      {photo.category}
+                    </span>
+                  </div>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="left-0" />
+          <CarouselNext className="right-0" />
+        </Carousel>
 
         {/* Modal for enlarged image */}
         {selectedImage && (
