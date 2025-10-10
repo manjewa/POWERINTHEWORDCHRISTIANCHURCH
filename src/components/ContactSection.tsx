@@ -100,7 +100,7 @@ const ContactSection = () => {
                   </span>
                 </div>
                 <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
-                     onClick={() => window.open('https://www.tiktok.com/search?q=POWER%20MAJESHI%20TV&t=1760080380911', '_blank')}>
+                     onClick={() => window.open('https://www.tiktok.com/@powerinthewordtv', '_blank')}>
                   <div className="text-divine-gold">
                     <Music className="w-6 h-6" />
                   </div>
