@@ -111,6 +111,36 @@ const PhotoAlbum = () => {
       src: "/lovable-uploads/outdoor-preaching-2.jpg",
       alt: "Bishop addressing massive outdoor gathering",
       category: "Events"
+    },
+    {
+      src: "/lovable-uploads/graduation-ceremony-1.jpg",
+      alt: "Ministry school graduation ceremony",
+      category: "Events"
+    },
+    {
+      src: "/lovable-uploads/graduation-ceremony-2.jpg",
+      alt: "Bishop with graduate holding certificate",
+      category: "Leadership"
+    },
+    {
+      src: "/lovable-uploads/graduation-ceremony-3.jpg",
+      alt: "Graduation ceremony with church leaders",
+      category: "Events"
+    },
+    {
+      src: "/lovable-uploads/bishops-ceremonial.jpg",
+      alt: "Bishops in ceremonial robes",
+      category: "Leadership"
+    },
+    {
+      src: "/lovable-uploads/certificate-presentation.jpg",
+      alt: "Certificate presentation ceremony",
+      category: "Events"
+    },
+    {
+      src: "/lovable-uploads/ministry-team.jpg",
+      alt: "Ministry team group photo",
+      category: "Community"
     }
   ];
 
