@@ -55,7 +55,7 @@ const PhotoAlbum = () => {
     {
       src: "/lovable-uploads/62faf9ce-d3cd-4481-8e11-d83b7a732748.png",
       alt: "Large congregation gathering",
-      category: "Events"
+      category: "Crusades"
     },
     {
       src: "/lovable-uploads/02991747-b0c6-4631-8340-9fabb1761332.png",
@@ -85,7 +85,7 @@ const PhotoAlbum = () => {
     {
       src: "/lovable-uploads/outdoor-preaching-1.jpg",
       alt: "Bishop preaching to large outdoor congregation",
-      category: "Events"
+      category: "Crusades"
     },
     {
       src: "/lovable-uploads/church-interior-1.jpg",
@@ -100,7 +100,7 @@ const PhotoAlbum = () => {
     {
       src: "/lovable-uploads/outdoor-ministry.jpg",
       alt: "Leadership outdoor ministry event",
-      category: "Events"
+      category: "Crusades"
     },
     {
       src: "/lovable-uploads/indoor-ceremony.jpg",
@@ -110,32 +110,32 @@ const PhotoAlbum = () => {
     {
       src: "/lovable-uploads/outdoor-preaching-2.jpg",
       alt: "Bishop addressing massive outdoor gathering",
-      category: "Events"
+      category: "Crusades"
     },
     {
       src: "/lovable-uploads/graduation-ceremony-1.jpg",
       alt: "Ministry school graduation ceremony",
-      category: "Events"
+      category: "Ordination"
     },
     {
       src: "/lovable-uploads/graduation-ceremony-2.jpg",
       alt: "Bishop with graduate holding certificate",
-      category: "Leadership"
+      category: "Ordination"
     },
     {
       src: "/lovable-uploads/graduation-ceremony-3.jpg",
       alt: "Graduation ceremony with church leaders",
-      category: "Events"
+      category: "Ordination"
     },
     {
       src: "/lovable-uploads/bishops-ceremonial.jpg",
       alt: "Bishops in ceremonial robes",
-      category: "Leadership"
+      category: "Ordination"
     },
     {
       src: "/lovable-uploads/certificate-presentation.jpg",
       alt: "Certificate presentation ceremony",
-      category: "Events"
+      category: "Ordination"
     },
     {
       src: "/lovable-uploads/ministry-team.jpg",
