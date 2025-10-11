@@ -61,6 +61,56 @@ const PhotoAlbum = () => {
       src: "/lovable-uploads/02991747-b0c6-4631-8340-9fabb1761332.png",
       alt: "Church service",
       category: "Worship"
+    },
+    {
+      src: "/lovable-uploads/church-exterior-1.jpg",
+      alt: "Church building exterior",
+      category: "Facilities"
+    },
+    {
+      src: "/lovable-uploads/church-exterior-2.jpg",
+      alt: "Church structure",
+      category: "Facilities"
+    },
+    {
+      src: "/lovable-uploads/church-sign.jpg",
+      alt: "Power in the Word Christian Church sign",
+      category: "Facilities"
+    },
+    {
+      src: "/lovable-uploads/church-building-gate.jpg",
+      alt: "Church entrance gate",
+      category: "Facilities"
+    },
+    {
+      src: "/lovable-uploads/outdoor-preaching-1.jpg",
+      alt: "Bishop preaching to large outdoor congregation",
+      category: "Events"
+    },
+    {
+      src: "/lovable-uploads/church-interior-1.jpg",
+      alt: "Church sanctuary interior",
+      category: "Facilities"
+    },
+    {
+      src: "/lovable-uploads/church-interior-2.jpg",
+      alt: "Church seating arrangement",
+      category: "Facilities"
+    },
+    {
+      src: "/lovable-uploads/outdoor-ministry.jpg",
+      alt: "Leadership outdoor ministry event",
+      category: "Events"
+    },
+    {
+      src: "/lovable-uploads/indoor-ceremony.jpg",
+      alt: "Church ceremony with ministry leaders",
+      category: "Leadership"
+    },
+    {
+      src: "/lovable-uploads/outdoor-preaching-2.jpg",
+      alt: "Bishop addressing massive outdoor gathering",
+      category: "Events"
     }
   ];
 
