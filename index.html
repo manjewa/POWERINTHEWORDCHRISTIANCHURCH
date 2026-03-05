@@ -1,27 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Power in the Word Christian Church | Frere Town, Mombasa</title>
-    <meta name="description" content="Where we preach the truth for if you know the truth, the truth will set you free indeed. Join our vibrant Pentecostal ministry in Frere Town, Mombasa." />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <meta name="author" content="Lovable" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power in the Word Christian Church | Frere Town, Mombasa</title>
+  <meta name="description" content="Where we preach the truth for if you know the truth, the truth will set you free indeed. Join our vibrant Pentecostal ministry in Frere Town, Mombasa.">
 
-    <meta property="og:title" content="76d307bd-9c77-40b2-bbb8-94e9b566fe9f" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header / Hero -->
+  <header class="bg-gray-900 text-white py-16 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold">Power in the Word Christian Church</h1>
+    <p class="mt-4 text-lg md:text-2xl">Frere Town, Mombasa | Preaching the Truth that Sets You Free</p>
+    <a href="#about" class="mt-6 inline-block bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">Learn More</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Us</h2>
+    <p class="text-center text-lg md:text-xl leading-relaxed">
+      We are a vibrant Pentecostal ministry in Frere Town, Mombasa. Our mission is to preach the truth of the Word of God, inspire spiritual growth, and serve our community with love.
+    </p>
+  </section>
+
+  <!-- Events / Sermons -->
+  <section id="events" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-12 text-center">Upcoming Events & Sermons</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow p-6">
+          <h3 class="text-xl font-semibold mb-2">Sunday Service</h3>
+          <p class="text-gray-600">Every Sunday, 9:00 AM – 11:00 AM</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <h3 class="text-xl font-semibold mb-2">Prayer Meeting</h3>
+          <p class="text-gray-600">Wednesdays, 6:00 PM – 7:30 PM</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <h3 class="text-xl font-semibold mb-2">Youth Fellowship</h3>
+          <p class="text-gray-600">Fridays, 5:00 PM – 7:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+    <p class="text-center text-lg mb-6">Reach out to us for prayer requests, ministry inquiries, or joining our community.</p>
+    <form class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" required>
+      <input type="email" placeholder="Your Email" class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" required>
+      <textarea placeholder="Message" rows="4" class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400" required></textarea>
+      <button type="submit" class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition w-full">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>&copy; 2026 Power in the Word Christian Church | Frere Town, Mombasa</p>
+  </footer>
+
+</body>
 </html>
