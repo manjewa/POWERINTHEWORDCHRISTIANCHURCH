@@ -91,7 +91,7 @@ const ContactSection = () => {
                   </span>
                 </div>
                 <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
-                     onClick={() => window.open('https://www.youtube.com/@powerinthewordchristianchu2171', '_blank')}>
+                     onClick={() => window.open('https://www.youtube.com/@POWERINTHEWORDCHRISTIANCHURCH', '_blank')}>
                   <div className="text-divine-gold">
                     <Youtube className="w-6 h-6" />
                   </div>
