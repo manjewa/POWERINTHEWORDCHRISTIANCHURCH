@@ -90,15 +90,20 @@ const ContactSection = () => {
                     Facebook: @POWER IN THE WORD CHRISTIAN CHURCH HEADQUARTER
                   </span>
                 </div>
-                <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
-                     onClick={() => window.open('https://www.youtube.com/@POWERINTHEWORDCHRISTIANCHURCH', '_blank')}>
+                <a
+                  href="https://www.youtube.com/@POWERINTHEWORDCHRISTIANCHURCH"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+                  aria-label="Visit Power in the Word Christian Church on YouTube"
+                >
                   <div className="text-divine-gold">
                     <Youtube className="w-6 h-6" />
                   </div>
                   <span className="text-heavenly-light/80">
                     YouTube: @POWER MAJESHI TV
                   </span>
-                </div>
+                </a>
                 <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
                      onClick={() => window.open('https://www.tiktok.com/@powerinthewordtv', '_blank')}>
                   <div className="text-divine-gold">
