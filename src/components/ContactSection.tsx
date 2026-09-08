@@ -25,12 +25,12 @@ const ContactSection = () => {
     {
       icon: <Facebook className="w-6 h-6" />,
       name: "Facebook",
-      handle: "@POWER IN THE WORD CHRISTIAN CHURCH"
+      handle: "@POWER IN THE WORD CHRISTIAN CHURCH HEADQUARTER"
     },
     {
       icon: <Youtube className="w-6 h-6" />,
       name: "YouTube", 
-      handle: "@POWER IN THE WORD CHRISTIAN CHURCH"
+      handle: "@POWER MAJESHI TV"
     }
   ];
 
@@ -87,7 +87,7 @@ const ContactSection = () => {
                     <Facebook className="w-6 h-6" />
                   </div>
                   <span className="text-heavenly-light/80">
-                    Facebook: @POWER IN THE WORD CHRISTIAN CHURCH
+                    Facebook: @POWER IN THE WORD CHRISTIAN CHURCH HEADQUARTER
                   </span>
                 </div>
                 <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
@@ -96,7 +96,7 @@ const ContactSection = () => {
                     <Youtube className="w-6 h-6" />
                   </div>
                   <span className="text-heavenly-light/80">
-                    YouTube: @POWER IN THE WORD CHRISTIAN CHURCH
+                    YouTube: @POWER MAJESHI TV
                   </span>
                 </div>
                 <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity"
