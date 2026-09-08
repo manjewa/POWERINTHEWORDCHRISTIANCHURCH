@@ -25,12 +25,12 @@ const ContactSection = () => {
     {
       icon: <Facebook className="w-6 h-6" />,
       name: "Facebook",
-      handle: "@POWER IN THE WORD CHRISTIAN CHURCH"
+      handle: "@POWER IN THE WORD CHRISTIAN CHURCH HEADQUARTER"
     },
     {
       icon: <Youtube className="w-6 h-6" />,
       name: "YouTube", 
-      handle: "@POWER IN THE WORD CHRISTIAN CHURCH"
+      handle: "@POWER MAJESHI TV"
     }
   ];
 
